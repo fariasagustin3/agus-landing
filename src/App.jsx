@@ -1,0 +1,29 @@
+import "./app.css";
+import Navbar from "./components/navbar/Navbar";
+import About from "./sections/about/About";
+import IndexSection from "./sections/index/IndexSection";
+import Portfolio from "./sections/portfolio/Portfolio";
+import Services from "./sections/services/Services";
+
+function App() {
+  return (
+    <main>
+      {/* navigation bar */}
+      <Navbar />
+
+      {/* index section */}
+      <IndexSection />
+
+      {/* about section */}
+      <About />
+
+      {/* services section */}
+      <Services />
+
+      {/* portfolio */}
+      <Portfolio />
+    </main>
+  );
+}
+
+export default App;

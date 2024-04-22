@@ -1,0 +1,47 @@
+.services-container {
+  width: 100vw;
+  height: 100%;
+  background-color: #252b42;
+  
+}
+
+.services-wrapper {
+  padding: 0px 150px;
+  margin-top: 60px;
+}
+
+.services-title {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.services-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-text-container {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.services-text-container h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.services-text-container p {
+  color: white;
+  font-weight: 100;
+  line-height: 23px;
+}
+
+.services-item img {
+  width: 500px;
+}

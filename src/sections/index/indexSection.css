@@ -1,0 +1,70 @@
+.index-container {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+  background-color: #252b42;
+}
+
+.index-wrapper {
+  width: 100%;
+  height: calc(100% - 20px);
+  background-image: url("../../assets/laptop-man.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(-200% 0, 300% 0, 50% 100%);
+}
+
+.index-wrapper-container {
+  height: 100%;
+  background: rgba(37, 43, 66, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(37, 43, 66, 0.8) 40%,
+    rgba(32, 145, 249, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+}
+
+.index-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-title-wrapper h1 {
+  overflow: hidden;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+ .index-title-wrapper h2 {
+  overflow: hidden;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 23px;
+}
+
+.index-title-wrapper button {
+  background-color: white;
+  border: none;
+  color: #2091F9;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 10px 40px;
+  font-weight: 500;
+  margin-top: 15px;
+  cursor: pointer;
+}

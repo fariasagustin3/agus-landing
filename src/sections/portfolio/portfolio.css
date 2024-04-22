@@ -1,0 +1,81 @@
+.portfolio-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(37, 43, 66);
+}
+
+.portfolio-wrapper {
+  padding: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-title {
+  color: white;
+  font-weight: 300;
+}
+
+.portfolio-subtitle {
+  color: white;
+  width: 700px;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.portfolio-carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.portfolio-project-item {
+  max-width: 240px;
+  height: 300px;
+  margin: 20px 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(26, 30, 46, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(26, 30, 46, 1);
+  box-shadow: 10px 10px 5px 0px rgba(26, 30, 46, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(10, 10, 10, 0.103);
+}
+
+.portfolio-project-description {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  overflow: hidden;
+  width: calc(100% - 10px);
+}
+
+.portfolio-project-item img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.portfolio-project-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.portfolio-project-texts h3 {
+  color: #2091F9;
+  font-weight: 300;
+}
+
+.portfolio-project-texts span {
+  color: #2091F9;
+  font-weight: 100;
+  font-size: 12px;
+  overflow: hidden;
+}
