@@ -63,6 +63,9 @@
   width: 600px;
   height: 360px;
   border-radius: 40px;
+  -webkit-box-shadow: 7px 7px 48px -3px rgba(37, 43, 66, 1);
+  -moz-box-shadow: 7px 7px 48px -3px rgba(37, 43, 66, 1);
+  box-shadow: 7px 7px 48px -3px rgba(37, 43, 66, 1);
 }
 
 .video {

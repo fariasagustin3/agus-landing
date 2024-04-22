@@ -43,7 +43,7 @@ export default function About() {
 
         {/* video */}
         <div className="video-container">
-          <video src={Video} autoPlay controls className="video"></video>
+          <video src={Video} controls className="video"></video>
         </div>
       </div>
     </section>

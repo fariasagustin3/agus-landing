@@ -4,7 +4,7 @@ import DesignServices from '../../assets/services-two.gif'
 
 export default function Services() {
   return (
-    <section className="services-container">
+    <section id="services" className="services-container">
       <div className="services-wrapper">
         <h1 className="services-title">¿Qué hago?</h1>
         <div className="services-item">

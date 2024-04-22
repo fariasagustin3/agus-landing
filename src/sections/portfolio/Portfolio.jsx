@@ -3,7 +3,7 @@ import Trendy from "../../assets/trendy-portfolio.png";
 
 export default function Portfolio() {
   return (
-    <section className="portfolio-container">
+    <section id="portfolio" className="portfolio-container">
       <div className="portfolio-wrapper">
         <h1 className="portfolio-title">Proyectos</h1>
         <p className="portfolio-subtitle">

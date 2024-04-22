@@ -2,7 +2,7 @@ import './indexSection.css'
 
 export default function IndexSection() {
   return (
-    <section className="index-container">
+    <section id="index" className="index-container">
       <div className="index-wrapper">
         <div className="index-wrapper-container">
           <div className="index-title-container">
@@ -11,7 +11,9 @@ export default function IndexSection() {
               <h2>
                 Transforma tu idea en realidad por medio del desarrollo de experiencias web a medida para impulsar tu negocio
               </h2>
-              <button>Saber más</button>
+              <a href="/[Español] - Agustin Farias - Full Stack Web Developer -CV.pdf" download>
+                <button type='download'>Descargar CV</button>
+              </a>
             </div>
           </div>
         </div>
