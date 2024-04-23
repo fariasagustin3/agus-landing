@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./app.css";
 import Navbar from "./components/navbar/Navbar";
 import About from "./sections/about/About";
@@ -8,6 +7,7 @@ import Portfolio from "./sections/portfolio/Portfolio";
 import Services from "./sections/services/Services";
 
 function App() {
+
   return (
     <main>
       {/* navigation bar */}

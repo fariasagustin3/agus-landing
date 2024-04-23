@@ -7,11 +7,18 @@
   z-index: 10;
 }
 
+.modal {
+  display: none;
+}
+
+.navigation-menu {
+  display: none;
+}
+
 .navigation-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .navigation-container ul {
@@ -45,4 +52,39 @@
   font-size: 25px;
   color: white;
   text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .navigation-wrapper {
+    position: relative;
+  }
+  .navigation-container ul {
+    display: none;
+  }
+
+  .navigation-menu {
+    display: flex;
+    color: white;
+    width: 30px;
+    margin-right: 20px;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .navbar-sections-link {
+    color: black;
+    font-weight: 500;
+  }
+
+  .modal-button {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: right;
+  }
 }

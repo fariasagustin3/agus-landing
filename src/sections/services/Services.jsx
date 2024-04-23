@@ -19,9 +19,8 @@ export default function Services() {
           </div>
           <img src={WebServices} alt="" />
         </div>
-        <div className="services-item">
-          <img src={DesignServices} alt="" />
-          <div className="services-text-container">
+        <div className="services-item second">
+          <div className="services-text-container second">
             <h2>Desarrollo y despliegue de aplicaciones y sitios web</h2>
             <p>
               Como desarrollador web, estoy capacitado para crear una idea en un proyecto
@@ -29,6 +28,7 @@ export default function Services() {
               que tu negocio digital pueda tener éxito
             </p>
           </div>
+          <img src={DesignServices} alt="" />
         </div>
       </div>
     </section>

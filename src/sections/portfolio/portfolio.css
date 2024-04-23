@@ -79,3 +79,32 @@
   font-size: 12px;
   overflow: hidden;
 }
+
+@media (max-width: 640px) {
+  .portfolio-container {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .portfolio-wrapper {
+    padding: 0;
+  }
+
+  .portfolio-title {
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .portfolio-subtitle {
+     width: 90%;
+     margin-top: 20px;
+     line-height: 23px;
+  }
+
+  .portfolio-carousel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}

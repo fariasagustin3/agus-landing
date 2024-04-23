@@ -57,3 +57,23 @@
   color: white;
   font-size: 13px;
 }
+
+@media (max-width: 640px) {
+  .contact-container {
+    height: 100%;
+  }
+
+  .contact-title {
+    margin: 30px 0px;
+  }
+
+  .contact-subtitle {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
