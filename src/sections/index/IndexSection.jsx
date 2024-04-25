@@ -11,7 +11,7 @@ export default function IndexSection() {
               <h2>
                 Transforma tu idea en realidad por medio del desarrollo de experiencias web a medida para impulsar tu negocio
               </h2>
-              <a href="/[Español] - Agustin Farias - Full Stack Web Developer -CV.pdf" download>
+              <a href="/[Español] - CV - Agustin Farias - Desarrollador Web.pdf" download>
                 <button type='download'>Descargar CV</button>
               </a>
             </div>
