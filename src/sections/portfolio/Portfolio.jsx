@@ -1,5 +1,7 @@
 import "./portfolio.css";
-import Trendy from "../../assets/trendy-portfolio.png";
+import Pizzagus from "../../assets/delivery-pizza-project.png";
+import Landing from "../../assets/landing-sparkify-project.png";
+import EpicStore from "../../assets/epic-store-project.png";
 
 export default function Portfolio() {
   return (
@@ -13,30 +15,30 @@ export default function Portfolio() {
           que proyectos como estos sean posibles
         </p>
         <div className="portfolio-carousel-container">
-          <div className="portfolio-project-item">
-            <img src={Trendy} alt="" />
-            <span className="portfolio-project-description">Sitio web e-commerce dedicado a la venta de ropa tanto a nivel local como a nivel nacional</span>
+          <a href="https://pizzagus.vercel.app/" target="_blank" className="portfolio-project-item">
+            <img src={Pizzagus} alt="" />
+            <span className="portfolio-project-description">Sitio web de tipo e-commerce adaptado a las necesidades de un negocio de comida rápida.</span>
             <div className="portfolio-project-texts">
-              <h3>Trendy</h3>
+              <h3>Pizzagus</h3>
+              <span>Food Delivery App</span>
+            </div>
+          </a>
+          <a href="https://sparkify-dev.vercel.app/" target="_blank" className="portfolio-project-item">
+            <img src={Landing} alt="" />
+            <span className="portfolio-project-description">Landing page profesional y adaptado a teléfonos móviles desarrollado con React.js y TailwindCSS</span>
+            <div className="portfolio-project-texts">
+              <h3>Sparkify</h3>
+              <span>Landing Page</span>
+            </div>
+          </a>
+          <a href="https://agustore.vercel.app/" target="_blank" className="portfolio-project-item">
+            <img src={EpicStore} alt="" />
+            <span className="portfolio-project-description">Sitio web e-commerce dedicado a la venta de productos desde ropa hasta artículos de librería</span>
+            <div className="portfolio-project-texts">
+              <h3>Epic Store</h3>
               <span>E-Commerce</span>
             </div>
-          </div>
-          <div className="portfolio-project-item">
-            <img src={Trendy} alt="" />
-            <span className="portfolio-project-description">Sitio web e-commerce dedicado a la venta de ropa tanto a nivel local como a nivel nacional</span>
-            <div className="portfolio-project-texts">
-              <h3>Trendy</h3>
-              <span>E-Commerce</span>
-            </div>
-          </div>
-          <div className="portfolio-project-item">
-            <img src={Trendy} alt="" />
-            <span className="portfolio-project-description">Sitio web e-commerce dedicado a la venta de ropa tanto a nivel local como a nivel nacional</span>
-            <div className="portfolio-project-texts">
-              <h3>Trendy</h3>
-              <span>E-Commerce</span>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

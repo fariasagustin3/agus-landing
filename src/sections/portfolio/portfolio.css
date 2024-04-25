@@ -46,6 +46,8 @@
   box-shadow: 10px 10px 5px 0px rgba(26, 30, 46, 1);
   border-radius: 10px;
   border: 1px solid rgba(10, 10, 10, 0.103);
+  color: inherit;
+  text-decoration: none;
 }
 
 .portfolio-project-description {
