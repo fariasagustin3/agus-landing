@@ -1,5 +1,5 @@
 import "./portfolio.css";
-import Pizzagus from "../../assets/delivery-pizza-project.png";
+import Furniro from "../../assets/furniro-header.png";
 import Landing from "../../assets/landing-sparkify-project.png";
 import EpicStore from "../../assets/epic-store-project.png";
 
@@ -15,12 +15,12 @@ export default function Portfolio() {
           que proyectos como estos sean posibles
         </p>
         <div className="portfolio-carousel-container">
-          <a href="https://pizzagus.vercel.app/" target="_blank" className="portfolio-project-item">
-            <img src={Pizzagus} alt="" />
-            <span className="portfolio-project-description">Sitio web de tipo e-commerce adaptado a las necesidades de un negocio de comida rápida.</span>
+          <a href="https://furniro-shop-ten.vercel.app/" target="_blank" className="portfolio-project-item">
+            <img src={Furniro} alt="" />
+            <span className="portfolio-project-description">Sitio web de tipo e-commerce adaptado a las necesidades de un negocio de venta de muebles online.</span>
             <div className="portfolio-project-texts">
-              <h3>Pizzagus</h3>
-              <span>Food Delivery App</span>
+              <h3>Furniro</h3>
+              <span>Ecommerce</span>
             </div>
           </a>
           <a href="https://sparkify-dev.vercel.app/" target="_blank" className="portfolio-project-item">
