@@ -2,6 +2,7 @@ import "./portfolio.css";
 import Furniro from "../../assets/furniro-header.png";
 import Landing from "../../assets/landing-sparkify-project.png";
 import EpicStore from "../../assets/epic-store-project.png";
+import BeanScene from "../../assets/coffee-project.png";
 
 export default function Portfolio() {
   return (
@@ -36,6 +37,14 @@ export default function Portfolio() {
             <div className="portfolio-project-texts">
               <h3>Epic Store</h3>
               <span>E-Commerce</span>
+            </div>
+          </a>
+          <a href="https://bean-scene-web.vercel.app/" target="_blank" className="portfolio-project-item">
+            <img src={BeanScene} alt="" />
+            <span className="portfolio-project-description">Professional landing page tailored for mobile phones developed with HTML, CSS and TailwindCSS.</span>
+            <div className="portfolio-project-texts">
+              <h3>Bean Scene</h3>
+              <span>Landing Page</span>
             </div>
           </a>
         </div>
