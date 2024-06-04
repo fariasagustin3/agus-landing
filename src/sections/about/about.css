@@ -55,6 +55,7 @@
   font-size: 12px;
   font-weight: 100;
   text-align: center;
+  overflow: hidden;
 }
 
 .video-container {

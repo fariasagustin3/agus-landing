@@ -7,17 +7,16 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="portfolio-container">
       <div className="portfolio-wrapper">
-        <h1 className="portfolio-title">Proyectos</h1>
+        <h1 className="portfolio-title">Projects</h1>
         <p className="portfolio-subtitle">
-          La experiencia desarrollando aplicaciones a medida es mi mejor manera
-          de demostrar que la calidad de mis servicios importan tanto como la
-          calidad humana, ya que la comunicación eficiente con el cliente hace
-          que proyectos como estos sean posibles
+          Experience in developing custom applications is my best way to demonstrate that the 
+          quality of my services matters as much as human quality, as efficient communication 
+          with the client makes projects like these possible.
         </p>
         <div className="portfolio-carousel-container">
           <a href="https://furniro-shop-ten.vercel.app/" target="_blank" className="portfolio-project-item">
             <img src={Furniro} alt="" />
-            <span className="portfolio-project-description">Sitio web de tipo e-commerce adaptado a las necesidades de un negocio de venta de muebles online.</span>
+            <span className="portfolio-project-description">E-commerce website tailored to the needs of an online furniture sales business.</span>
             <div className="portfolio-project-texts">
               <h3>Furniro</h3>
               <span>Ecommerce</span>
@@ -25,7 +24,7 @@ export default function Portfolio() {
           </a>
           <a href="https://sparkify-dev.vercel.app/" target="_blank" className="portfolio-project-item">
             <img src={Landing} alt="" />
-            <span className="portfolio-project-description">Landing page profesional y adaptado a teléfonos móviles desarrollado con React.js y TailwindCSS</span>
+            <span className="portfolio-project-description">Professional landing page tailored for mobile phones developed with React.js and TailwindCSS.</span>
             <div className="portfolio-project-texts">
               <h3>Sparkify</h3>
               <span>Landing Page</span>
@@ -33,7 +32,7 @@ export default function Portfolio() {
           </a>
           <a href="https://agustore.vercel.app/" target="_blank" className="portfolio-project-item">
             <img src={EpicStore} alt="" />
-            <span className="portfolio-project-description">Sitio web e-commerce dedicado a la venta de productos desde ropa hasta artículos de librería</span>
+            <span className="portfolio-project-description">E-commerce website dedicated to selling products ranging from clothing to stationery items.</span>
             <div className="portfolio-project-texts">
               <h3>Epic Store</h3>
               <span>E-Commerce</span>

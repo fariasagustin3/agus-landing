@@ -24,27 +24,27 @@ export default function Navbar() {
         <ul className="links-container">
           <li className="navbar-list-item">
             <a href="#index" className="navbar-sections-link">
-              Inicio
+              Index
             </a>
           </li>
           <li className="navbar-list-item">
             <a href="#about" className="navbar-sections-link">
-              Acerca de mí
+              About Me
             </a>
           </li>
           <li className="navbar-list-item">
             <a href="#services" className="navbar-sections-link">
-              Servicios
+              Services
             </a>
           </li>
           <li className="navbar-list-item">
             <a href="#portfolio" className="navbar-sections-link">
-              Mi trabajo
+              My work
             </a>
           </li>
           <li className="navbar-list-item">
             <a href="#contact" className="navbar-sections-link">
-              Contacto
+              Contact
             </a>
           </li>
         </ul>

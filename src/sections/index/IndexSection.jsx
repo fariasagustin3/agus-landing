@@ -7,12 +7,12 @@ export default function IndexSection() {
         <div className="index-wrapper-container">
           <div className="index-title-container">
             <div className="index-title-wrapper">
-              <h1>Soluciones web personalizadas para el éxito de tu negocio</h1>
+              <h1>Custom web solutions for your business success</h1>
               <h2>
-                Transforma tu idea en realidad por medio del desarrollo de experiencias web a medida para impulsar tu negocio
+                Transform your idea into reality through the development of tailored web experiences to boost your business
               </h2>
-              <a href="/[Español] - CV - Agustin Farias - Desarrollador Web.pdf" download>
-                <button type='download'>Descargar CV</button>
+              <a href="/Fullstack Developer - Agustín Farias.pdf" download>
+                <button type='download'>Download CV</button>
               </a>
             </div>
           </div>
