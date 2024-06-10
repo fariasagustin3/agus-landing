@@ -3,6 +3,7 @@ import Furniro from "../../assets/furniro-header.png";
 import Landing from "../../assets/landing-sparkify-project.png";
 import EpicStore from "../../assets/epic-store-project.png";
 import BeanScene from "../../assets/coffee-project.png";
+import Guizatec from "../../assets/guizatec-landing.png";
 
 export default function Portfolio() {
   return (
@@ -44,6 +45,14 @@ export default function Portfolio() {
             <span className="portfolio-project-description">Professional landing page tailored for mobile phones developed with HTML, CSS and TailwindCSS.</span>
             <div className="portfolio-project-texts">
               <h3>Bean Scene</h3>
+              <span>Landing Page</span>
+            </div>
+          </a>
+          <a href="https://guizatec-landing.vercel.app/" target="_blank" className="portfolio-project-item">
+            <img src={Guizatec} alt="" />
+            <span className="portfolio-project-description">Professional landing page tailored for mobile phones developed with React + Vite and TailwindCSS.</span>
+            <div className="portfolio-project-texts">
+              <h3>Guizatec</h3>
               <span>Landing Page</span>
             </div>
           </a>
