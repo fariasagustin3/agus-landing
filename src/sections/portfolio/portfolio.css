@@ -1,5 +1,5 @@
 .portfolio-container {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: rgb(37, 43, 66);
 }
@@ -28,11 +28,14 @@
   position: relative;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 50px;
+  overflow-y: hidden;
 }
 
 .portfolio-project-item {
-  max-width: 240px;
+  width: 240px;
   height: 300px;
   margin: 20px 0px;
   padding: 20px;
